@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {  
+    min-height: 100%;
+    background-image: url(blueblobscene.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 750;
+    font-size: 1.4rem;
+    color: #edf0f1;
+    text-decoration: none;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+    
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 30px 10%; 
+    padding-right: 0.5%;
+    padding-left: 1%; */
+    border: 1.4px solid black; 
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 1rem;
+    transform: scale(1);
+    align-items: left;
+    
+    padding-bottom: 0.5%;
+    padding-left: 0.5rem;
+    
+    
+    
+}
+
+.nav_links {
+    list-style: none;
+    
+   
+    
+    
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 30px; /* DISTANCE INBETWEEN NAV LINKS */
+    
+    
+    
+
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    
+
+    
+    
+}
+
+.nav_links li a:hover {
+    color: black;  
+}
+
+li:hover {
+    background-color: rgba(19, 19, 146, 0.418);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 25px;
+    background-color: rgba(0,0,60,1);
+    border: 2px solid black;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: white;
+
+    
+    
+}
+
+button:hover {
+    background-color: rgba(10,10,50,1); /* BUTTON COLOR */
+}
+
+
+
+li, a, header, .logo, .nav_links, .nav_links li a {
+    padding-top: .1rem;
+    
+    
+   
+}
+
+
+
+p1 {
+    color: white;
+}
+
+p2 {
+    color: white;
+}
+
+
+p3 {
+    color: white;
+}
+
+
+
+
+/* GRID SETTINGS FOR CONTENT */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+    
+}
+
+.grid-height {
+    height: 30rem;
+    
+}
+
+
+.grid-bg {
+    background:none;
+    
+}
+
+.col-12 {
+    grid-column: span 12 / span 12;  
+    border: 1px solid red; 
+}
+
+.col-1 {
+    grid-column: span 1/ span 1;
+}
+
+.col-2 {
+    grid-column: span 2/ span 2;
+}
+
+.col-3 {
+    grid-column: span 3/ span 3;
+}
+
+.col-4 {
+    grid-column: span 4/ span 4;
+}
+
+.col-5 {
+    grid-column: span 5/ span 5;
+    
+}
+
+.grid-max {
+    max-width: 64rem;
+    margin: 0 auto;
+}
+.box1title { 
+    margin-left: 0.5%;
+    margin-top: 5%;
+    color: white;
+    font-size: 3.8rem;
+    text-align: left;
+}
